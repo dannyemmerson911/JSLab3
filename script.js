@@ -1,3 +1,6 @@
+(function(){
+
+
 function startGame(){
 	var play = prompt("Do you have what it takes to defeat Grant the Almighty Chicken of Death?");
 	if (play === "yes"){
@@ -65,3 +68,4 @@ function startCombat(){
 }
 
 startGame();
+})();
